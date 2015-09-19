@@ -24,7 +24,7 @@ Typical Usage to add a map with a marker:
 
 A marker will be added in the center that will open a popup with the "title" as information. As such:
 
-![Example map](https://github.com/heri/volt-osmaps/master/example.jpg?raw=true)
+![Example map](https://github.com/heri/volt-osmaps/blob/master/app/osmaps/example.jpg?raw=true)
 
 You will need a geocoder if you only have a street address instead of the latitude, longitude coordinates
 
