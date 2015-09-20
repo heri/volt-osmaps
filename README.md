@@ -20,13 +20,24 @@ Or install it yourself as:
 
 Typical Usage to add a map with a marker:
 
-    <:osmaps  height="380px" latitude="{{ latitude }}" longitude="{{ longitude }}" title="{{ title }}" />
+    <:osmaps  height="380px" latitude="{{ latitude }}" longitude="{{ longitude }}" />
 
-A marker will be added in the center that will open a popup with the "title" as information. As such:
+Options
+* title to show a marker at the center of the map. On clic, a popup will show title
+* zoom is a numeric option. Default is 15
+
+With the option title given, it will show a map as such:
 
 ![Example map](https://github.com/heri/volt-osmaps/blob/master/app/osmaps/example.jpg?raw=true)
 
 You will need a geocoder if you only have a street address instead of the latitude, longitude coordinates
+
+## TODO
+
+* Add marker
+* Polylines
+* Polygons
+* Controls such as zoom etc.
 
 ## Contributing
 

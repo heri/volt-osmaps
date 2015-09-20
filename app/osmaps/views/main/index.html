@@ -2,4 +2,4 @@
 
 <div id="osmaps" class="osmaps" style="height: {{ attrs.height }};">&nbsp;</div>
 
-{{ map(attrs.latitude, attrs.longitude, attrs.title) }}
+{{ map(attrs.latitude, attrs.longitude, {title: attrs.title, zoom: attrs.zoom}) }}
