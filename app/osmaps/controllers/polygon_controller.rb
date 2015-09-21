@@ -3,10 +3,10 @@ module Osmaps
     def index
     end
 
-    def polygon(LatLongArray, opts = {})
-        `L.polygon(LatLongArray).addTo(map);`
+    def polygon(latLongArray, opts = {})
+        `L.polygon(latLongArray).addTo(map);`
       return nil
     end
-    
+
   end
 end

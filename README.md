@@ -46,6 +46,15 @@ An array of lat,long coordinates will draw a polygon layer on the map. For examp
 
     <:osmaps:polygon LatLongArray="[[51.509, -0.08],[51.503, -0.06],[51.51, -0.047]]" />
 
+
+## TODO
+
+* make scale as option
+* custom icon for markers
+* paths
+* circle
+* app test
+
 ## Contributing
 
 1. Fork it ( http://github.com/[my-github-username]/volt-osmaps/fork )

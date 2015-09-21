@@ -10,7 +10,7 @@ module Osmaps
       if opts[:title]
         `L.marker([ latitude, longitude]).addTo(map).bindPopup(title);`
       end
-      `L.control.scale( {imperial: false} )`
+      `L.control.scale( {imperial: false} );`
       return nil
     end
 
