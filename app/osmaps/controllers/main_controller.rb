@@ -8,9 +8,9 @@ module Osmaps
       zoom = opts[:zoom] || 15
       `var map = L.map('osmaps').setView([latitude, longitude], 15).addLayer(osm);`
       if opts[:title]
+        title = opts[:title]
         `L.marker([ latitude, longitude]).addTo(map).bindPopup(title);`
       end
-      `L.control.scale( {imperial: false} );`
       return nil
     end
 
